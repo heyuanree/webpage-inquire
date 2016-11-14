@@ -1,0 +1,190 @@
+@charset "utf-8";
+/*Base*/
+
+* {
+    margin:0;
+    padding:0;
+}
+body,td,th {
+    font-size:12px;
+    font-family:"微软雅黑",Verdana,Arial;
+}
+body {
+    background:url(body_bg.gif) repeat-x scroll 0 0 #F4F4F4;
+}
+div,td {
+    word-wrap:break-word;
+    word-break:break-all;
+}
+a {
+    font-size:12px;
+    color:#000;
+    text-decoration:none;
+}
+a:visited {
+    color:#000;
+    text-decoration:none;
+}
+a:hover {
+    color:#000;
+    text-decoration:none;
+}
+a:active {
+    color:#000;
+    text-decoration:none;
+}
+ul {
+    list-style:none;
+}
+img {
+    border:none;
+}
+h1,h2,h3,h4 {
+    font-size:14px;
+    font-weight:normal;
+}
+table {
+    border-collapse:collapse;
+}
+.cal {
+    clear:both;
+}
+.big {
+    font-weight:bold;
+}
+.f_left {
+    float:left;
+}
+.f_right {
+    float:right;
+}
+.center {
+    text-align:center;
+}
+.dis_no {
+    display:none;
+}
+.ti28 {
+    text-indent:28px;
+}
+.input {
+    border:1px solid #6CF;
+    height:26px;
+    line-height:26px;
+    text-indent:5px;
+}
+.btn,#re {
+    background:url(../image/btn.gif);
+    width:90px;
+    height:30px;
+    line-height:30px;
+    border:0;
+    color:#FFF;
+}
+.bgFFF {
+    background:#FFF;
+}
+/*Page*/
+
+.wrapper {
+    width:980px;
+    margin:0 auto;
+    padding-top:9px;
+}
+#logo {
+    width:314px;
+    height:52px;
+    overflow:hidden;
+}
+#banner {
+    width:650px;
+    height:52px;
+    overflow:hidden;
+}
+#menu {
+    width:100%;
+    height:46px;
+    padding-bottom:10px;
+}
+#menu li {
+    margin-left:20px;
+    float:left;
+}
+#menu li a {
+    color:#FFFFFF;
+    display:block;
+    padding:0 0 0 14px;
+    line-height:46px;
+    text-decoration:none;
+    font-size:14px;
+}
+#menu li a div {
+    padding-right:14px;
+}
+#menu li a:hover {
+    background:url(menu_l.gif);
+    color:#000;
+}
+#menu li a:hover div {
+    background:url(menu_r.gif) no-repeat right bottom;
+}
+#content {
+    background:url(box_bg.gif);
+    width:100%;
+}
+.sbox {
+    width:920px;
+    margin:0 auto;
+    border:1px solid #CCC;
+    background:#F6F6F6;
+    font-size:14px;
+}
+.sbox td {
+    font-size:14px;
+}
+.sbox a,.sbox a:hover {
+    font-size:14px;
+    color:#106ABD;
+    text-decoration:underline;
+}
+.sbox .stitle {
+    height:40px;
+    font-weight:bold;
+    text-indent:60px;
+    line-height:40px;
+    width:100%;
+}
+.sbox .simg1 {
+    background:url(ico1.png) #EDEDED no-repeat 15px 5px;
+}
+.sbox .simg2 {
+    background:url(ico2.png) #EDEDED no-repeat 15px 5px;
+}
+.sbox .simg3 {
+    background:url(ico3.png) #EDEDED no-repeat 15px 5px;
+}
+.sbox .scontent {
+    padding:20px;
+}
+.sbox .slist li {
+    display:inline;
+    height:20px;
+}
+.sbox .box_l {
+    width:880px;
+}
+
+.tables {
+    color:#333;
+}
+.tables div {
+    color:#307095;
+    padding-left:12px;
+}
+#bottom {
+    text-align:center;
+    line-height:22px;
+    padding:10px;
+}
+
+.bds_tools_32 span.bds_more { text-indent:-9999em !important}
